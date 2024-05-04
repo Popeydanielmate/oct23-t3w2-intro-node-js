@@ -1,3 +1,9 @@
-console.log("The terminal app is running")
+console.log("The terminal app is running");
 
-console.log("Bye bye, terminal app is finished")
+const pokemon = require('pokemon');
+
+let randomPokemon = pokemon.random();
+
+console.log(`Today's lucky Pokemon is ${randomPokemon}`);
+
+console.log("Bye bye, terminal app is finished");
